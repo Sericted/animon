@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-family: 'Source Code Pro', monospace;
+    font-size: 5em;
+    letter-spacing: 20px;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+h1::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: black;
+
+    animation: typewriter 2s steps(7) forwards;
+}
+
+.letters {
+    color: #d7ba7d;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.qurly-bracket {
+    position: absolute;
+
+    opacity: 0;
+
+    color: #ffd700;
+
+    animation: fadeIn 2s 2.5s forwards;
+}
