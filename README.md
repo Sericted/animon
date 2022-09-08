@@ -13,7 +13,7 @@ Animon can be imported into your project by placing the code below at the top of
 
 #### Linking (recommended)
 
-Animon can be linked with your stylesheet by pasting the code below at the bottom of your HTML <head> tag.
+Animon can be linked with your stylesheet by pasting the code below at the bottom of your HTML ```<head>``` tag.
 
 ```css
 <link rel=stylesheet href="https://sericted.github.io/animon/keyframes.css">
