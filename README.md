@@ -1,7 +1,7 @@
 
 ![Logo](https://raw.githubusercontent.com/Sericted/animon/main/images/Animon.png)
 Animon is an open-source CSS library that lets you animate your website without having to make your own animations.
-# Usage/Examples
+## Installation
 
 #### Importing
 
